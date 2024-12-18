@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="pCard_card">
+         <div class="pCard_up ">
+            <div class="pCard_text">
+               <h2 id="name">Van Goggles</h2>
+               <p id="bio">Some guy & some dude</p>
+            </div>
+            <div class="pCard_add"><i class="fa fa-plus"></i></div>
+         </div>
+         <div class="pCard_down">
+            <div>
+               <p>Post Count</p>
+               <p id="posts_count">126</p>
+            </div>
+            <div>
+               <p>Followers</p>
+               <p id="followers">21,579</p>
+            </div>
+            <div>
+               <p>Following</p>
+               <p id="following">1,976</p>
+            </div>
+         </div>
+         <div class="pCard_back">
+            <form action="" method="post">
+               <h3>Create New Post</h3>
+               <p>Title</p>
+               <input name="title" type="text">
+               <p>Description</p>
+               <input name="description" type="text">
+               <p>Status</p>
+               <input name="status" type="text">
+               <p>Image</p>
+               <input name="image" type="file">
+               <p>Video</p>
+               <input name="video" type="file">
+               <button type="submit">Post</button>
+            </form>
+         </div>
+         
+      </div>
+      <div class="posts">
+         <ul id="postsList"></ul>
+      </div>
+   </div>
+   
+</body>
+<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="./script.js"></script>
+<script src="./app.js"></script>
+
+</html>
